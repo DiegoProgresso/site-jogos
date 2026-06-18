@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Jogos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- VIDEO NO CANTO SUPERIOR ESQUERDO -->
+    <video id="video-canto" autoplay muted loop playsinline>
+        <source src="imgs/video.mp4" type="video/mp4">
+    </video>
+
+    <!-- BOTÃO QR CODE -->
+    <button id="btn-qrcode">QR Code</button>
+
+    <!-- BOTÃO FÓRUM -->
+    <a id="btn-forum" href="forum.html">Fórum</a>
+
+    <!-- JANELA DO QR CODE -->
+    <div id="qrcode-modal" class="modal">
+        <div class="modal-content">
+            <span id="fechar">&times;</span>
+
+            <h2>Acesse pelo QR Code</h2>
+
+            <img src="imgs/qrcode_diegoprogresso.github.io.png">
+        </div>
+    </div>
+
+    <!-- BOTÃO DO CHATBOT -->
+    <button id="btn-chatbot" aria-label="Abrir chat de ajuda">
+        <video src="imgs/chatbot-avatar.mp4" autoplay loop muted playsinline></video>
+    </button>
+
+    <!-- OVERLAY DO CHAT -->
+    <div id="chat-overlay"></div>
+
+    <!-- PAINEL LATERAL DO CHAT -->
+    <aside id="chat-panel">
+        <div class="chat-header">
+            <h3>Assistente do site</h3>
+            <span id="chat-fechar">&times;</span>
+        </div>
+
+        <div id="chat-messages" class="chat-messages"></div>
+
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Digite sua pergunta..." autocomplete="off">
+            <button id="chat-send">Enviar</button>
+        </div>
+    </aside>
+
+    <header>
+        <h1>Menu de Jogos</h1>
+        <p>Escolha um jogo para jogar</p>
+    </header>
+
+    <main class="container">
+
+        <!-- JOGO 1 -->
+        <div class="card">
+            <img src="imgs/diego.png">
+
+            <div class="card-content">
+                <h2>Diego</h2>
+
+                <p>Um jogo de fantasia de turno</p>
+
+                <a href="https://chimerical-shortbread-6ee684.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+        <!-- JOGO 2 -->
+        <div class="card">
+            <img src="imgs/guilherme.png">
+
+            <div class="card-content">
+                <h2>Guilherme</h2>
+
+                <p>Roguelike</p>
+
+                <a href="https://merry-treacle-727dc3.netlify.app"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+        <!-- JOGO 3 -->
+        <div class="card">
+            <img src="imgs/eduardo.png">
+
+            <div class="card-content">
+                <h2>Eduardo</h2>
+
+                <p>Parkour</p>
+
+                <a href="https://rococo-frangollo-06f594.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+        <!-- JOGO 4 -->
+        <div class="card">
+            <img src="imgs/giovanna.png">
+
+            <div class="card-content">
+                <h2>Giovanna</h2>
+
+                <p>O Ninja</p>
+
+                <a href="https://stalwart-begonia-cb3516.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+        <!-- JOGO 5 -->
+        <div class="card">
+            <img src="imgs/gabriela.png">
+
+            <div class="card-content">
+                <h2>Gabriela</h2>
+
+                <p>branca de neve</p>
+
+                <a href="https://mellow-pithivier-0a980d.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+        <!-- JOGO 6 -->
+        <div class="card">
+            <img src="imgs/yohan.png">
+
+            <div class="card-content">
+                <h2>Yohan</h2>
+
+                <p>blocos</p>
+
+                <a href="https://coruscating-biscuit-1ff3af.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn">
+                    Jogar
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        © 2026 - Alguns jogos da minha turma
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
